@@ -4,11 +4,12 @@ const fs = require("fs");
 
 const PORT = process.env.PORT || 3001;
 
+const allNotes = require('./db/db.json');
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('assets'));
+app.use(express.static('public'));
 
 // Get all notes and send them back as JSON response
 app.get('/api/notes', (req, res) => {
@@ -37,7 +38,7 @@ app.get('*', (req, res) => {
     notesArray = [];
     
     if (notesArray.length === 0)
-    notesArray = [];
+    notesArray.push(0);
 
     // Assign an ID to the new note
     body.id = notesArray[0];
