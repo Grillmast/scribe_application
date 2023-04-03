@@ -1,0 +1,25 @@
+{
+  "name": "scribe_application",
+  "version": "1.0.0",
+  "description": "A note taker application for those who want to organize thoughts and keep track of tasks that need completion.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grillmast/scribe_application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grillmast/scribe_application/issues"
+  },
+  "homepage": "https://github.com/Grillmast/scribe_application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  }
+}
