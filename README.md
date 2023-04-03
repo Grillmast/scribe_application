@@ -2,7 +2,7 @@
   <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" />
 
   ## Description
-  an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+  An application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -31,7 +31,7 @@
   N/A
 
   ## Questions
-  If you have any questions about the repo, please contact [Grillmast](mailto:wefw@gmail.com).
+  If you have any questions about the repo, please contact [Grillmast].
   
   ## Link
   https://scribe-application.herokuapp.com/
