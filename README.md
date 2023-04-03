@@ -33,5 +33,5 @@
   ## Questions
   If you have any questions about the repo, please contact [Grillmast](mailto:wefw@gmail.com).
   
-  ##Link
+  ## Link
   https://scribe-application.herokuapp.com/
